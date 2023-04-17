@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { FC, ReactElement } from 'react';
+import { ThemeProvider, CssBaseline } from '@mui/material';
+import { customTheme } from './theme/customTheme';
 
-function App() {
+const App: FC = (): ReactElement => {
   return (
-    <div>
+    <ThemeProvider theme={customTheme}>
+      <CssBaseline />
       <h1>My initial code</h1>
-    </div>
-  )
-}
+    </ThemeProvider>
+  );
+};
 
-
-export default App
-
+export default App;
