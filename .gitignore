@@ -33,3 +33,8 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+
+#trials
+trials/
+trial.ts
+trial.js
