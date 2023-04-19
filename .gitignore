@@ -39,3 +39,4 @@ trials/
 trial.ts
 trial.js
 .env
+db.sqlite
