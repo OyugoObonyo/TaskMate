@@ -38,3 +38,4 @@ typings/
 trials/
 trial.ts
 trial.js
+.env
