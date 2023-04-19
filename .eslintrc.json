@@ -22,6 +22,10 @@
         "@typescript-eslint",
         "prettier"
     ],
-    "rules": {
+    "rules": {},
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
     }
 }
